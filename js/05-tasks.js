@@ -25,6 +25,31 @@
 */
 // const number = Number(prompt('Введіть число між 0 та 3'));
 
+// switch (number) {
+//   case 0: {
+//     console.log('Ви ввели число 0');
+
+//     break;
+//   }
+
+//   case 1: {
+//     console.log('Ви ввели число 1');
+
+//     break;
+//   }
+
+//   case 2:
+//   case 3: {
+//     console.log('Ви ввели число 2, а може й 3');
+
+//     break;
+//   }
+
+//   default: {
+//     console.log('Ви ввели якесь інше число');
+//   }
+// }
+
 // if (number === 0) {
 //   console.log('Ви ввели число 0');
 // } else if (number === 1) {
@@ -46,7 +71,7 @@
 // const isFriend = true;
 // const isDnd = false;
 
-// let canOpenChat = ;
+// let canOpenChat = isOnline && isFriend && !isDnd;
 
 // console.log('Чи можна відкрити чат? ', canOpenChat);
 
