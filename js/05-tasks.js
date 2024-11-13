@@ -57,6 +57,11 @@
 */
 
 // const string = 'Our office is closed so we`re working from home today.';
+// const wordsArr = string.split(' ');
+
+// for (let i = 1; i < wordsArr.length - 1; i++) {
+//   console.log(wordsArr[i]);
+// }
 
 /*
 ? Напиши скрипт пошуку найменшого числа у масиві. Код повинен працювати
@@ -65,6 +70,12 @@
 
 // const values = [17, -10, 94, -30, 1, 23, -20];
 // let min = values[0];
+
+// for (let i = 1; i < values.length; i++) {
+//   if (values[i] < min) {
+//     min = values[i];
+//   }
+// }
 
 // console.log(min);
 
@@ -76,3 +87,13 @@
 // const developersSalaries = [800, 1500, 4000];
 
 // let total = 0;
+
+// for (const salary of managerSalaries) {
+//   total += salary;
+// }
+
+// for (const salary of developersSalaries) {
+//   total += salary;
+// }
+
+// console.log(total);
