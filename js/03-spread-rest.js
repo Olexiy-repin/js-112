@@ -12,7 +12,10 @@
 ? Створення копії масиву примітивів
 */
 // const values = [23, 34, 4, 5];
-// const valuesCopy = null;
+// const valuesCopy = [...values];
+
+// console.log('values:', values);
+// console.log('valuesCopy:', valuesCopy);
 
 /*
 ? Поєднуємо кілька масивів в один через spread
@@ -21,7 +24,7 @@
 // const currentTemps = [4, 5, 6];
 // const nextWeekTemps = [7, 8, 9];
 
-// const allTemps = null;
+// const allTemps = [...lastWeekTemps, ...currentTemps, ...nextWeekTemps];
 
 // console.log('lastWeekTemps:', lastWeekTemps);
 // console.log('currentTemps:', currentTemps);
@@ -33,8 +36,8 @@
 */
 // const temps = [18, 14, 12, 21, 17, 29, 24];
 
-// const minTemp = null;
-// const maxTemp = null;
+// const minTemp = Math.min(...temps);
+// const maxTemp = Math.max(...temps);
 
 // console.log('temps: ', temps);
 // console.log('minTemp: ', minTemp);
@@ -44,7 +47,7 @@
 ? Створення копії об'єкта
 */
 // const obj = { x: 1, y: 2 };
-// const objCopy = null;
+// const objCopy = { ...obj };
 
 // console.log('obj: ', obj);
 // console.log('objCopy: ', objCopy);
@@ -54,7 +57,10 @@
 */
 // const objA = { x: 1, y: 2 };
 // const objB = { x: 0, z: 3 };
-// const objC = null;
+// const objC = {
+//   ...objA,
+//   ...objB,
+// };
 
 // console.log('objA: ', objA);
 // console.log('objB: ', objB);
@@ -74,14 +80,27 @@
 //   showNotifications: false,
 // };
 
-// const finalSettings = null;
+// const finalSettings = {
+//   ...defaultSettings,
+//   ...userSettings,
+// };
 
 // console.log('defaultSettings:', defaultSettings);
 // console.log('userSettings:', userSettings);
 // console.log('finalSettings:', finalSettings);
 
 //? Напишіть функцію sum, яка складає довільну кількість аргументів
-// function sum() {}
+// const sum = function (...args) {
+//   let total = 0;
+
+//   console.log(args);
+
+//   for (const num of args) {
+//     total += num;
+//   }
+
+//   return total;
+// };
 
 // console.log(sum(1, 2, 3, 4, 5));
 // console.log(sum(10, 40, 60));

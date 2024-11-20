@@ -18,7 +18,14 @@
 /*
 ? Пошук друга за іменем
 */
-// const findFriendByName = function (allFriends, friendName) {};
+// const findFriendByName = function (allFriends, friendName) {
+//   for (const friend of allFriends) {
+//     if (friend.name.toLowerCase() === friendName.toLowerCase()) {
+//       return friend;
+//     }
+//   }
+//   return `${friendName} не знайдено!`;
+// };
 
 // console.log(findFriendByName(friends, 'Poly'));
 // console.log(findFriendByName(friends, 'Chelsy'));
@@ -26,14 +33,32 @@
 /*
 ? Отримуємо імена всіх друзів
 */
-// const getAllNames = function (allFriends) {};
+// const getAllNames = function (allFriends) {
+//   const allNames = [];
+
+//   for (const friend of allFriends) {
+//     allNames.push(friend.name);
+//   }
+
+//   return allNames;
+// };
 
 // console.log(getAllNames(friends));
 
 /*
 ? Отримуємо імена тільки тих друзів, які зараз онлайн
 */
-// const getOnlineFriends = function (allFriends) {};
+// const getOnlineFriends = function (allFriends) {
+//   const onlineFriends = [];
+
+//   for (const friend of allFriends) {
+//     if (friend.online) {
+//       onlineFriends.push(friend.name);
+//     }
+//   }
+
+//   return onlineFriends;
+// };
 
 // console.log(getOnlineFriends(friends));
 
@@ -50,7 +75,17 @@
 //   { name: 'Аконіт', price: 200, quantity: 2 },
 // ];
 
-// const calcTotalPrice = function (allStones, stoneName) {};
+// const calcTotalPrice = function (allStones, stoneName) {
+//   console.log(allStones);
+
+//   for (const stone of allStones) {
+//     if (stone.name.toLowerCase() === stoneName.toLowerCase()) {
+//       return stone.price * stone.quantity;
+//     }
+//   }
+
+//   return `${stoneName} не знайдено!`;
+// };
 
 // console.log(calcTotalPrice(stones, 'Діамант'));
 // console.log(calcTotalPrice(stones, 'Смарагд'));
