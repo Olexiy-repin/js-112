@@ -1,0 +1,43 @@
+@import url('./reset.css');
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  max-width: 400px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 4px 0 #3d3d3d;
+  border-radius: 6px;
+}
+
+.feedback-form-input {
+  height: 40px;
+  padding-left: 16px;
+  border: 1px solid #303030;
+  border-radius: 6px;
+}
+
+.feedback-form-message {
+  height: 120px;
+  resize: none;
+  padding: 16px;
+  border-radius: 6px;
+}
+
+.feedback-form-btn {
+  min-width: 160px;
+  height: 30px;
+  align-self: center;
+  border: 1px solid #3d3d3d;
+  border-radius: 6px;
+  background-color: transparent;
+  transition: color 250ms linear, background-color 250ms linear;
+}
+
+.feedback-form-btn:hover,
+.feedback-form-btn:focus {
+  background-color: #3d3d3d;
+  color: #ffffff;
+}

@@ -9,18 +9,18 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/03-form.css" />
 
     <script src="../js/03-forms.js" type="module" defer></script>
   </head>
   <body>
     <p><a href="../index.html">Go back</a></p>
 
-    <form class="js-form feedback-form">
-      <input type="text" name="email" class="form-input" placeholder="Email" required />
-      <input type="password" name="password" class="form-input" placeholder="Password" required />
-      <textarea cols="30" rows="10" name="comment" class="form-textarea" placeholder="Comment"></textarea>
-      <button class="form-button" type="submit">Submit</button>
+    <form class="feedback-form js-feedback-form">
+      <input class="feedback-form-input" type="email" name="email" placeholder="Email" required />
+      <input class="feedback-form-input" type="password" name="password" placeholder="Password" required />
+      <textarea class="feedback-form-message" name="comment" placeholder="Comment"></textarea>
+      <button class="feedback-form-btn" type="submit">Submit</button>
     </form>
   </body>
 </html>
