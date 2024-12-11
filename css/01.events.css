@@ -1,0 +1,7 @@
+@import url('./reset.css');
+
+.box {
+  width: 40px;
+  height: 40px;
+  background-color: tomato;
+}
